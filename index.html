@@ -8,12 +8,10 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./css/index.css">
-    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <!-- <script src="./js/slick.min.js"></script>
-    <script defer src="./js/index.js"></script> -->
-    <script src="./js/index.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script defer src="./js/index.js"></script>
     <style>
         .material-symbols-outlined {
             font-variation-settings:
@@ -720,24 +718,24 @@
 
 
     <script>
-        // $('.post-wrapper').slick({
-        //     slidesToShow: 5,
-        //     slidesToScroll: 3,
-        //     // autoplay: true,
-        //     // autoplaySpeed: 2500,
+        $('.post-wrapper').slick({
+            slidesToShow: 5,
+            slidesToScroll: 3,
+            // autoplay: true,
+            // autoplaySpeed: 2500,
 
-        // })
-        // window.onscroll = function () { scrollFunction() };
+        })
+        window.onscroll = function () { scrollFunction() };
 
 
-        // // 스크롤 내릴 때 서브메뉴 고정
-        // function scrollFunction() {
-        //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        //         document.getElementById("mini_banner").classList.add("visible");
-        //     } else {
-        //         document.getElementById("mini_banner").classList.remove("visible");
-        //     }
-        // }
+        // 스크롤 내릴 때 서브메뉴 고정
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("mini_banner").classList.add("visible");
+            } else {
+                document.getElementById("mini_banner").classList.remove("visible");
+            }
+        }
 
     </script>
 </body>
