@@ -267,7 +267,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <!--post slider-->
     </div>
@@ -717,27 +716,6 @@
 
 
 
-    <script>
-        $('.post-wrapper').slick({
-            slidesToShow: 5,
-            slidesToScroll: 3,
-            // autoplay: true,
-            // autoplaySpeed: 2500,
-
-        })
-        window.onscroll = function () { scrollFunction() };
-
-
-        // 스크롤 내릴 때 서브메뉴 고정
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("mini_banner").classList.add("visible");
-            } else {
-                document.getElementById("mini_banner").classList.remove("visible");
-            }
-        }
-
-    </script>
 </body>
 
 
