@@ -72,3 +72,25 @@ $(function () {
 
         //  마우스 휠 이벤트에 대한 리스너 등록
         gallery.addEventListener('wheel', scrollGallery);
+
+
+
+        // 상품 스와이프, 자동슬라이드
+        $('.post-wrapper').slick({
+            slidesToShow: 5,
+            slidesToScroll: 3,
+            // autoplay: true,
+            // autoplaySpeed: 2500,
+
+        })
+        window.onscroll = function () { scrollFunction() };
+
+
+        // 스크롤 내릴 때 서브메뉴 고정
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("mini_banner").classList.add("visible");
+            } else {
+                document.getElementById("mini_banner").classList.remove("visible");
+            }
+        }
