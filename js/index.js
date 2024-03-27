@@ -71,7 +71,7 @@ $(function () {
 
 
         //  마우스 휠 이벤트에 대한 리스너 등록
-        gallery.addEventListener('wheel', scrollGallery);
+        // gallery.addEventListener('wheel', scrollGallery);
 
 
 
@@ -83,6 +83,9 @@ $(function () {
             // autoplaySpeed: 2500,
 
         })
+
+
+        
         window.onscroll = function () { scrollFunction() };
 
 
