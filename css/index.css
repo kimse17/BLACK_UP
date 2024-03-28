@@ -120,12 +120,6 @@ li {
     width: 100%;
 }
 
-/* .banner_each>img {
-    position: relative;
-    top: 6px;
-    left: 50%;
-    transform: translateX(-50%);
-} */
 .banner_each>a>img {
     position: relative;
     top: 6px;
