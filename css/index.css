@@ -46,6 +46,7 @@ li {
     position: fixed;
     width: 100%;
     clear: both;
+    top: 0;
     min-width: 1400px;
     overflow: hidden;
     z-index: 11;
